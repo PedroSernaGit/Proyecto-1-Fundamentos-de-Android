@@ -1,5 +1,5 @@
 # Proyecto-1-Fundamentos-de-Android
-Hola! les adjunto mi proyecto 1 junto a capturas con los resultados, saludos!
+Hola! les adjunto mi proyecto 1 junto a capturas con los resultados, el idioma del celular es Inglés por eso en las capturas está en ingles, pero el archivo Strings principal está en español como se aprecia mas abajo, saludos!
 ![Resultado Landscape Celular](https://user-images.githubusercontent.com/110641411/183233148-4a32ba38-fa4d-44ef-89fd-c92bf0ba955b.png)
 ![Resultado Portrait Celular](https://user-images.githubusercontent.com/110641411/183233160-22cfbb27-cf06-4b88-817c-7b1a41f6083f.png)
 ![Resultado Landscape Tablet](https://user-images.githubusercontent.com/110641411/183233163-3027f7f3-b2bc-42f1-8ed3-23a707d82ddf.png)
