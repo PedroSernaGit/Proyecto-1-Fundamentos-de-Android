@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="959dp"
+        android:layout_height="983dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="280dp"
+        android:scaleX="0.8"
+        android:scaleY="0.8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/primer" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="281dp"
+        android:layout_height="152dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="-30dp"
+        android:text="@string/titulo_app"
+        android:textColor="#FFFFFF"
+        android:textColorLink="#FAF9F9"
+        android:textSize="48sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.525"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="-540dp"
+        android:layout_marginBottom="28dp"
+        android:backgroundTint="#3F94C6"
+        android:text="@string/button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
